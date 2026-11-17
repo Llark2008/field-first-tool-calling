@@ -74,3 +74,7 @@ Original model and optimizer checkpoints are not part of this release. The origi
 Base model: [pinned Hugging Face snapshot](https://huggingface.co/mlx-community/Qwen3-1.7B-4bit/tree/3b1b1768f8f8cf8351c712464f906e86c2b8269e). Frameworks: [MLX](https://github.com/ml-explore/mlx), [MLX-LM](https://github.com/ml-explore/mlx-lm). Model terms apply independently of this code repository.
 
 To regenerate the two figures, install Matplotlib in a separate plotting environment and run `python -B -m fieldfirst.plot`. Figure inputs are the published counts and loss aggregates.
+
+## GitHub Actions status
+
+The initial public release includes [a verification workflow template](verify-workflow.yml). It is not enabled automatically: the publishing GitHub CLI credential lacks the `workflow` scope, and the connected integration could not write the workflow. Local fresh-environment CPU tests and rescoring passed as recorded in [publication-validation.json](../results/publication-validation.json). To enable CI with appropriate GitHub permissions, copy the template to `.github/workflows/verify.yml`.
