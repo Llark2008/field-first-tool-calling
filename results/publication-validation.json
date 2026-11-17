@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-17",
+  "cpu": {
+    "collected": 169,
+    "skipped": 14,
+    "passed": 155,
+    "command": "python -B -m fieldfirst.tests",
+    "fresh_environment": true,
+    "mlx_installed": false
+  },
+  "rescoring": {
+    "raw_generations": 1680,
+    "epoch_cells": 12,
+    "base_controls": 2,
+    "all_match": true
+  },
+  "mlx_smoke": {
+    "microsteps": 8,
+    "updates": 1,
+    "first_loss": 0.8615061156451702,
+    "original_first_loss": 0.8615061156451702,
+    "exact_first_loss_match": true,
+    "supervised_tokens": 360,
+    "free_generations": 4,
+    "teacher_rows": 4,
+    "checkpoint_saved_and_reloaded": true,
+    "resource_error": null
+  },
+  "full_public_wrapper_retraining": false
+}

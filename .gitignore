@@ -1,0 +1,25 @@
+# Runtime files belong OUTSIDE this synced source tree. These are backup guards.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+models/
+adapters/
+runs/
+checkpoints/
+*.safetensors
+*.gguf
+*.bin
+.env
+.env.*
+!.env.example
+.DS_Store
+*.npz
+*.npy
+*.log
+*.lock
+*.egg-info/
+build/
+dist/

@@ -1,0 +1,73 @@
+{
+  "internal": {
+    "n": 120,
+    "success": 66,
+    "valid": 119,
+    "rejected": 0,
+    "C": 54,
+    "C_n": 60,
+    "Q": 1,
+    "Q_n": 48,
+    "U": 11,
+    "U_n": 12,
+    "F": 1,
+    "F_n": 60,
+    "P": 38,
+    "P_n": 48,
+    "J": 1,
+    "J_n": 48,
+    "failures": {
+      "premature_call": 38,
+      "wrong_clarification_fields": 9,
+      "wrong_call": 4,
+      "unsupported_missed": 1,
+      "false_clarify": 1,
+      "invalid": 1
+    }
+  },
+  "visible": {
+    "n": 120,
+    "success": 0,
+    "valid": 0,
+    "rejected": 0,
+    "C": 0,
+    "C_n": 60,
+    "Q": 0,
+    "Q_n": 48,
+    "U": 0,
+    "U_n": 12,
+    "F": 0,
+    "F_n": 60,
+    "P": 0,
+    "P_n": 48,
+    "J": 0,
+    "J_n": 48,
+    "failures": {
+      "invalid": 120
+    }
+  },
+  "visible_D": {
+    "n": 120,
+    "success": 37,
+    "valid": 99,
+    "rejected": 21,
+    "C": 37,
+    "C_n": 60,
+    "Q": 0,
+    "Q_n": 48,
+    "U": 0,
+    "U_n": 12,
+    "F": 0,
+    "F_n": 60,
+    "P": 45,
+    "P_n": 48,
+    "J": 0,
+    "J_n": 48,
+    "failures": {
+      "wrong_call": 13,
+      "invalid": 21,
+      "premature_call": 45,
+      "unsupported_missed": 4
+    }
+  }
+}
